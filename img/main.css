@@ -1,0 +1,13 @@
+body {}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+div {
+    width: 50%;
+    float: left;
+    background-color: yellow;
+}
