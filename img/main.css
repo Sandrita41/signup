@@ -26,7 +26,6 @@
     .right-column {
         width: 60%;
         float: left;
-        background-color: pink;
     }
     
     .close {}
@@ -35,9 +34,21 @@
     
     .form-row {}
     
-    .form-row>label {}
+    .form-row>label {
+        color: #ccc;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
     
-    .form-row>input {}
+    .form-row>input {
+        width: 100%;
+        padding: 10px 18px;
+        margin: 8px 0;
+        display: inline-block;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
     
     .form-row>button {}
     
