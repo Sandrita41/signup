@@ -14,56 +14,50 @@
 
 .form-row.flex-row {
     flex-direction: row;
-    gap: 25px;
 }
 
 .form-row>label {
     text-transform: uppercase;
+    color: #CFCFCF;
     font-size: 14px;
 }
 
 .form-row>input {
-    line-height: 40px;
     font-size: 20px;
     border: none;
-    border-bottom: 1px solid #ccc;
-}
-
-.form-row>input::placeholder {
-    color: #ccc;
-    font-style: italic;
+    border-bottom: 2px solid #CFCFCF;
 }
 
 .form-row>button {
-    padding-left: 50px;
-    padding-right: 50px;
-    line-height: 40px;
-    font-size: 20px;
-    background: #015cda;
-    background: linear-gradient(47deg, #234ad5 0%, #0265de 100%);
-    color: #fff;
-    border: none;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 #0005;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(140deg, rgba(2, 0, 36, 1) 0%, rgba(19, 76, 214, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 0px 40px;
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
     cursor: pointer;
+    margin-right: 25px;
 }
 
 .form-row>button:hover {
-    box-shadow: 0 4px 8px 0 #0008;
+    box-shadow: 2px 10px 10px 0 red;
 }
 
 .form-row>span {
     line-height: 40px;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .form-row>a {
     line-height: 40px;
-    font-size: 18px;
+    color: #134CD6;
+    font-size: 13px;
     text-decoration: none;
-    color: #015cda;
 }
 
 .form-row>a:hover {
+    background-color: #134CD6;
     text-decoration: underline;
 }
