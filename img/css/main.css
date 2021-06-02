@@ -45,4 +45,11 @@ main {
     background-color: #fff;
 }
 
-.close {}
+.close {
+    color: #CFCFCF;
+    font-size: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
