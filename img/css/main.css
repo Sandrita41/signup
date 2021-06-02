@@ -8,26 +8,22 @@ body * {
 }
 
 body {
-    background-color: #7dbccd;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(58deg, rgba(2, 0, 36, 1) 0%, rgba(107, 192, 213, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 main {
     display: inline-block;
     width: 800px;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-left: calc(50% - 400px);
 }
 
 .left-column {
     width: 40%;
     float: left;
-    padding: 40px;
-    background-color: #4232a0;
-    color: #fff;
-    background-image: url(../img/hill.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(58deg, rgba(2, 0, 36, 1) 0%, rgba(66, 50, 160, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .bottom-links {}
