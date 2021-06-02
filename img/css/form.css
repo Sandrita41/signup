@@ -39,10 +39,11 @@
     line-height: 40px;
     cursor: pointer;
     margin-right: 25px;
+    box-shadow: 2px 10px 10px 0 #0005;
 }
 
 .form-row>button:hover {
-    box-shadow: 2px 10px 10px 0 red;
+    box-shadow: 2px 10px 10px 0 #0008;
 }
 
 .form-row>span {
