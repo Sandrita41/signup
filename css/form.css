@@ -23,9 +23,15 @@
 }
 
 .form-row>input {
+    line-height: 40px;
     font-size: 20px;
     border: none;
     border-bottom: 2px solid #CFCFCF;
+}
+
+.form-row>input::placeholder {
+    color: #CFCFCF;
+    font-style: italic;
 }
 
 .form-row>button {
